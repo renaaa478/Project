@@ -120,10 +120,9 @@ class _HomeState extends State<Home> {
       // ),
       body: CustomScrollView(slivers: <Widget>[
         SliverAppBar(
-          expandedHeight: 200.0,
-          floating: false,
-          pinned: true,
+         expandedHeight: 150,
           title: Text(nameUser == null ? 'HOME' : '$nameUser  $surname'),
+          
           flexibleSpace: FlexibleSpaceBar(
             title: Column(
               mainAxisAlignment: MainAxisAlignment.end,

@@ -110,11 +110,11 @@ class _ReviewNState extends State<ReviewN> {
                                         fontSize: 20.0,
                                         fontWeight: FontWeight.bold)),
                                 Text('      '),
-                                Text(getallcoms[index].cDate,
-                                    style: TextStyle(
-                                        color: Colors.grey,
-                                        fontSize: 16.0,
-                                        fontWeight: FontWeight.normal)),
+                                // Text(getallcoms[index].cDate,
+                                //     style: TextStyle(
+                                //         color: Colors.grey,
+                                //         fontSize: 16.0,
+                                //         fontWeight: FontWeight.normal)),
                               ],
                             ),
                           ],
